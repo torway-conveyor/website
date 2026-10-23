@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Product detail — TORWAY Conveyor, custom conveyors from Dongguan, China.">
+<title>Product Detail — TORWAY Conveyor</title>
+<link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left"><span>⏰ Mon–Sat 8:30–18:00</span><a href="mailto:cyfeng15@163.com">✉ cyfeng15@163.com</a></div>
+    <div class="lang-switch" id="langSwitch">
+      <button data-lang="zh">中文</button><button data-lang="en">EN</button><button data-lang="ms">BM</button>
+      <button data-lang="th">ไทย</button><button data-lang="id">ID</button><button data-lang="tl">FIL</button>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo"><img src="../assets/img/logo.svg" alt=""><span class="logo-text"><strong>TORWAY</strong><em>CONVEYOR</em></span></a>
+    <nav class="nav" id="nav">
+      <a href="../index.html" data-i18n="nav_home"></a>
+      <a href="../products/index.html" data-i18n="nav_products"></a>
+      <a href="../components.html" data-i18n="nav_components"></a>
+      <a href="../about.html" data-i18n="nav_about"></a>
+      <a href="../customers.html" data-i18n="nav_customers"></a>
+      <a href="../contact.html" data-i18n="nav_contact"></a>
+    </nav>
+    <a href="../contact.html" class="header-cta" data-i18n="cta_quote"></a>
+    <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero" id="pageHero" style="background-image:url(../img/hero-1.webp)">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html" data-i18n="crumb_home"></a><i>/</i><a href="../products/index.html" data-i18n="crumb_products"></a><i>/</i><span data-i18n="crumb_detail"></span></div>
+    <h1 id="phTitle"></h1>
+    <p class="ph-sub" id="phSub"></p>
+  </div>
+</section>
+
+<section class="section" style="background:var(--bg)">
+  <div class="container detail-layout">
+    <div class="detail-main">
+      <div class="section-head" style="text-align:left;margin:0 0 24px;max-width:none">
+        <h3 class="dg-title" data-i18n="gallery_title"></h3>
+        <p data-i18n="gallery_sub"></p>
+      </div>
+      <div class="detail-gallery" id="dgGrid"></div>
+      <div class="load-wrap"><button class="btn btn-dark" id="dgMore"></button></div>
+    </div>
+    <aside>
+      <div class="spec-card">
+        <h3 data-i18n="spec_title"></h3>
+        <table class="spec-table" id="specTable"></table>
+      </div>
+      <div class="inquiry-card">
+        <h3 data-i18n="inq_title"></h3>
+        <p data-i18n="inq_sub"></p>
+        <a href="../contact.html" class="btn btn-primary" data-i18n="inq_btn"></a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section" style="background:#fff">
+  <div class="container">
+    <div class="section-head"><span class="section-tag" data-i18n="prod_tag"></span><h2 data-i18n="related_title"></h2></div>
+    <div class="prod-grid" id="relatedGrid"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <a href="../index.html" class="logo"><img src="../assets/img/logo.svg" alt=""><span class="logo-text"><strong>TORWAY</strong><em>CONVEYOR</em></span></a>
+      <p data-i18n="footer_about"></p>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer_products"></h4>
+      <a href="index.html" data-i18n="footer_p1"></a><a href="index.html" data-i18n="footer_p2"></a>
+      <a href="index.html" data-i18n="footer_p3"></a><a href="index.html" data-i18n="footer_p4"></a><a href="index.html" data-i18n="footer_p5"></a>
+    </div>
+    <div class="footer-col">
+      <h4 data-i18n="footer_contact"></h4>
+      <p>📍 <span data-i18n="contact_addr_short"></span></p>
+      <p>📞 <a href="tel:+8618520691831">+86 185 2069 1831</a></p>
+      <p>💬 WhatsApp / WeChat: +86 185 2069 1831</p>
+      <p>✉️ <a href="mailto:cyfeng15@163.com">cyfeng15@163.com</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom"><div class="container"><span data-i18n="footer_copy"></span><span>Dongguan TORWAY Conveyor Equipment</span></div></div>
+</footer>
+
+<div class="float-contact">
+  <a href="https://wa.me/8618520691831" target="_blank" rel="noopener" class="float-wa">🟢</a>
+  <a href="mailto:cyfeng15@163.com" class="float-mail">✉️</a>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose">✕</button><button class="lb-prev" id="lbPrev">‹</button><button class="lb-next" id="lbNext">›</button>
+  <div class="lb-stage"><img id="lbImg" alt=""></div><div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/products-def.js"></script>
+<script src="../assets/data/data.js"></script>
+<script src="../assets/js/page.js"></script>
+<script src="../assets/js/pages/detail.js"></script>
+</body>
+</html>
+
