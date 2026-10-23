@@ -30,7 +30,8 @@ button{font-family:inherit;cursor:pointer}
 .header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 2px 14px rgba(11,42,74,.08);transition:.3s}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:74px}
 .logo{display:flex;align-items:center;gap:10px}
-.logo img{width:42px;height:42px}
+.logo img{height:42px;width:auto;max-width:170px;object-fit:contain}
+.logo-img{height:42px;width:auto;max-width:170px;object-fit:contain;display:block}
 .logo-text{display:flex;flex-direction:column;line-height:1.1}
 .logo-text strong{color:var(--navy);font-size:19px;letter-spacing:1px}
 .logo-text em{color:var(--blue);font-size:10px;letter-spacing:4px;font-style:normal;font-weight:700}
@@ -178,6 +179,7 @@ html[lang="zh"] .en-only{display:none}
 
 /* ---------- footer ---------- */
 .footer{background:#06182b;color:#9fb0c2;padding:66px 0 0}
+.footer .logo-img{height:38px;max-width:150px;opacity:.92;margin-bottom:12px}
 .footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:40px;padding-bottom:44px}
 .footer-col p{font-size:14px;margin-bottom:8px}
 .footer-col h4{color:#fff;font-size:16px;margin-bottom:16px}
@@ -337,4 +339,6 @@ html[lang="zh"] .en-only{display:none}
   .page-hero{min-height:240px}
   .page-hero .container{padding:52px 20px}
 }
+
+
 
